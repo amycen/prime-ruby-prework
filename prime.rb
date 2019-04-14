@@ -11,7 +11,7 @@ def prime?(n)
   i = 5
   w = 2
 
-  while i * i <= n:
+  while i * i <= n
     if n % i == 0
       ans = false
     end
