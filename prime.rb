@@ -16,7 +16,7 @@ def prime?(n)
       ans = false
     end
     i += w
-    w = 6 - w 
+    w = 6 - w
   end
   ans
 end
