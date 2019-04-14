@@ -1,7 +1,9 @@
 # Add  code here!
 def prime?(n)
   ans = true
-  if n == 2 || n == 3
+  if n <= 1
+    ans = false
+  elsif n == 2 || n == 3
     ans = true
   elsif n % 2 == 0 || n % 3 == 0
     ans = false
